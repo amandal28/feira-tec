@@ -113,3 +113,11 @@ input[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
+.footer {
+    background-color: #003d73;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 0.9rem;
+}
