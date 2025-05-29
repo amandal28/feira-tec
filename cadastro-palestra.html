@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-palestra.css">
+    <title>Cadastro Palestra</title>
+</head>
+<body>
+    <nav>
+        <h2>Feira Tecnológica</h2>
+
+           <a href="index.html"> HOME </a>
+                <a href="cadastro-palestra.html"> CADASTRO PALESTRA</a>
+                <a href="cadastro.html"> CADASTRO </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="mapa.html"> MAPA </a>
+    </nav>
+    
+    <section>
+        
+    <h2>Cadastro da Palestra</h2>
+<main>
+    <form action="cadastro-palestra.php" method="POST">
+      <label for="assunto">Nome da palestra:</label><br>
+      <input type="text" name="assunto" required><br><br>
+  
+      <label for="descricao">Descrição:</label><br>
+      <input type="text"  name="descricao" required><br><br>
+  
+      <label for="palestrante">Palestrante:</label><br>
+     <input type="text" name="palestrante" required> <br><br>
+
+      <label for="horario">Horário:</label><br>
+      <input type="text" name="horario" required> <br><br>
+  
+      <input type="submit" value="Enviar">
+    </form>
+
+</main>
+</section>
+    <p class="footer"> SESI/SENAI©  2025 </p>
+</body>
+</html>

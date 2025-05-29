@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+
+<nav>
+        <h2>Feira Tecnológica</h2>
+
+                <a href="index.html"> HOME </a>
+                <a href="cadastro-palestra.html"> CADASTRO PALESTRA</a>
+                <a href="cadastro.html"> CADASTRO </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="mapa.html"> MAPA </a>
+</nav>
+
+<section>
+        <header>
+    <h2>Entre em Contato</h2>
+        </header>
+<main>
+    <form action="contato.php" method="POST">
+      <label for="nome">Nome:</label><br>
+      <input type="text" name="nome"  required>
+  
+      <label for="email">E-mail:</label><br>
+      <input type="email" name="email" required>
+  
+      <label for="telefone">Telefone:</label><br>
+      <input name="tel" required placeholder="(00)00000-0000">
+
+      <label for="endereço">Endereço:</label><br>
+      <input type="text" name="endereço" required placeholder="Rua, Número, Bairro,
+Cidade"> 
+      
+      <label for="cep">CEP:</label><br>
+      <input type="number" name="cep" required placeholder="XXXXX-XXX"><br>
+
+
+      <input type="submit" value="Enviar">
+    </form>
+
+</main>
+</section>
+
+<p class="footer"> SESI/SENAI©  2025 </p>
+</body>
+</html>
